@@ -8,7 +8,7 @@ var myName = "Traci Crawford";
 
 //Create a variable called myAge that is a number data type
 
-var myAge = 45
+var myAge = 46
 
 //////////////////PROBLEM 3////////////////////
 
@@ -36,7 +36,6 @@ var devMountainGoal = null;
 //plus the value of the name parameter.
 
 function greeting (name) {
-  console.log(name);
   return "Hello, " + name
 }
 
@@ -65,8 +64,8 @@ var groceries = ["apples", "milk","eggs","bread"];
 //and goodBoy (a boolean).
 
 var dog = {
-  name: "Beau",
-  color: "Brown",
+  name: "Beaux",
+  color: "Brown with black spots",
   age: 1,
   goodBoy: true
 }
@@ -75,7 +74,7 @@ var dog = {
 //...access the dog's name from the object and assign it to a
 //variable called devMountainClassPet.
 
-var devMountainClassPet = "Beau";
+var devMountainClassPet = dog.name;
 
 //////////////////PROBLEM 10////////////////////
 
@@ -94,7 +93,7 @@ function nameCheck(name) {
   }else {
     return ('Cool name, Joe');
   }
-}
+};
 
 //////////////////PROBLEM 11////////////////////
 
@@ -105,7 +104,7 @@ function nameCheck(name) {
 function add (num1, num2) {
 
   return num1 + num2;
-}
+};
 
 //Now invoke add, passing in the numbers 3 and 4
 //storing the result in the variable mathSum.
@@ -131,7 +130,7 @@ return ('so trendy');
   } else {
 return ('you need to evaluate your favorite color choice');
   }
-}
+};
 
 
 
@@ -174,7 +173,7 @@ let pondScope = ["duck", "realDuck"];
 
 //Create a variable called age with your age assigned to you
 
-var age = 45;
+var age = 46;
 
 // FLASH FORWARD TO NEXT YEAR
 // reassign the value of age to be one greater than it was, because, we all get older
@@ -183,4 +182,4 @@ age + 1;
 
 // Good news! We can live forever. Set your age to 999
 
-age += 954;
+age += 953;
